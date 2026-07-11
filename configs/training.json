@@ -1,0 +1,25 @@
+{
+  "python_version": "3.9.16",
+  "episodes": 1000,
+  "steps_per_episode_per_agent": 20,
+  "replay_buffer_size": 1000,
+  "batch_size": 64,
+  "network_update_frequency": "once_per_episode",
+  "action_selection": "epsilon_greedy_exponential_decay",
+  "algorithms": [
+    "dqn",
+    "double_dqn",
+    "dueling_dqn"
+  ],
+  "architectures": [
+    "cnn_mlp",
+    "radar"
+  ],
+  "optimizer": "adam",
+  "learning_rate": 0.0001,
+  "loss_function": "mean_squared_error",
+  "notes": [
+    "The manuscript reports the epsilon-decay formula but does not report numerical epsilon_initial or epsilon_min values.",
+    "Random seeds and exact library versions were not reported in the manuscript."
+  ]
+}

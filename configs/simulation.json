@@ -1,0 +1,17 @@
+{
+  "episodes": 1000,
+  "steps_per_episode_per_agent": 10,
+  "weight_updates": false,
+  "action_selection": "greedy_argmax_q",
+  "algorithms": [
+    "dqn",
+    "double_dqn",
+    "dueling_dqn"
+  ],
+  "architectures": [
+    "cnn_mlp",
+    "radar"
+  ],
+  "expected_article_configurations": 6,
+  "expected_article_simulations": 18
+}

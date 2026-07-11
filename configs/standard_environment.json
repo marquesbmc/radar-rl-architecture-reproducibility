@@ -1,0 +1,10 @@
+{
+  "name": "standard",
+  "grid_size": [
+    10,
+    10
+  ],
+  "obstacle_ratio": 0.1,
+  "prey_agents": 10,
+  "predator_agents": 5
+}

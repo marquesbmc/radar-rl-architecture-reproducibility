@@ -1,0 +1,10 @@
+{
+  "name": "extensive_sparse",
+  "grid_size": [
+    20,
+    20
+  ],
+  "obstacle_ratio": 0.05,
+  "prey_agents": 15,
+  "predator_agents": 10
+}

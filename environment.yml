@@ -1,0 +1,8 @@
+name: radar-reproducibility
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.16
+  - pip
+  - pip:
+      - -r requirements.txt

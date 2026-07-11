@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software or its research artifacts, please cite this repository and the associated manuscript."
+title: "RADAR RL Architecture Reproducibility Package"
+type: software
+authors:
+  - family-names: "Costa"
+    given-names: "Bruno Marques"
+    affiliation: "Rio de Janeiro State University (UERJ)"
+  - family-names: "Costa"
+    given-names: "Rosa Maria Esteves Moreira da"
+    affiliation: "Rio de Janeiro State University (UERJ)"
+    email: "rcosta@ime.uerj.br"
+    orcid: "https://orcid.org/0000-0001-6165-1649"
+  - family-names: "Castro"
+    given-names: "Maria Clicia Stelling de"
+    affiliation: "Rio de Janeiro State University (UERJ)"
+    email: "clicia@ime.uerj.br"
+    orcid: "https://orcid.org/0000-0002-6315-1215"
+version: 1.0.0
+date-released: 2026-07-11
+license: MIT
+repository-code: "https://github.com/marquesbmc/radar-rl-architecture-reproducibility"
+keywords:
+  - deep reinforcement learning
+  - multi-agent systems
+  - attention mechanisms
+  - channel fusion
+  - reproducibility

@@ -1,0 +1,12 @@
+# Compatibility ranges based on Python 3.9.16 reported in the manuscript.
+# Generate environment-lock.txt after validating the original environment.
+numpy>=1.23,<2.0
+pandas>=1.5,<3.0
+scipy>=1.9,<2.0
+matplotlib>=3.6,<4.0
+tensorflow>=2.10,<2.16
+keras>=2.10,<2.16
+jupyterlab>=3.6,<5.0
+ipykernel>=6.0,<7.0
+pillow>=9.0,<12.0
+ttkthemes>=3.0,<4.0

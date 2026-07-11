@@ -1,0 +1,10 @@
+{
+  "name": "dense_restricted",
+  "grid_size": [
+    10,
+    10
+  ],
+  "obstacle_ratio": 0.3,
+  "prey_agents": 15,
+  "predator_agents": 10
+}
